@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #8B0000;
 }
 
@@ -46,4 +46,19 @@ button {
     color: gold;
     font-family: "Pacifico", serif;
     letter-spacing: 2px;
+}
+
+@media (max-width: 460px) {
+    section {
+        width: 200px;
+    }
+
+    #slider img {
+        width: 200px;
+    }
+
+    button {
+        font-size: 15px;
+        width: 150px;
+    }
 }
