@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #8B0000;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    position: relative;
+}
+
+#slider img {
+    width: 300px;
+    position: absolute;
+    padding-top: 20px;
+    opacity: 0;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+button {
+    width: 290px;
+    height: 55px;
+    position: absolute;
+    bottom: 130px;
+    cursor: grab;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    background: #4B0082;
+    color: gold;
+    font-family: "Pacifico", serif;
+    letter-spacing: 2px;
+}
